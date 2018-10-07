@@ -3,8 +3,8 @@
 <head>
 	<!-- <meta charset="UTF-8"> -->
 	<meta charset="utf-8">
-	<meta name="keywords" content="сайт 28Halavach, RSSchool, EPAM">
-	<meta name="description" content="Сайт со ссылками RSSchool 28Halavach">
+	<meta name="keywords" content="резюме, 28Halavach, Halavach Aliaksandr, RSSchool, EPAM, cv">
+	<meta name="description" content="резюме Головача Александра Halavach Aliaksandr ">
 	<title>28Halavach</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="style_menu.css">
@@ -12,72 +12,52 @@
 
 </head>
 <body>
-	<header>
-		<nav style="background: yellow;">
-			<ul>
-				<li><a href="https://www.google.ru/" target="_blank">Google &amp; Google</a></li>
-				<li><a href="https://mail.ru/">@mail.ru &amp; @mail.ru</a></li>
-				<li><a href="span-div.html">Span &amp; Div</a></li>
-			</ul>
-		</nav>
-
-
-	</header>
-
-
-
-	<article>
-		<section class="post-heading"><h1></h1></section>
-		<section class="post-body"><p></p></section>
-		<section class="post-footer"><h3></h3>
-			<ol>
-				<li>(1)</li><li>(2)</li><li>(3)</li><li>(4)</li>
-			</ol>
-		</section>
-	</article>
-
+<div class="wrapper">
 	<main>
-		<p>By default the <span>&ldquo;span&rdquo;</span> element is an inline element.</p>
+		<p style="float:right"><img src="Fine Photo.png"></p>
 
-		<div>
-			<p>By default the DIV(p, form, header, booter, section) element is a block level element.</p>
+		<div class="div-main">
+			<p>By default the DIV(p, form, header, footer, section) element is a block level element.</p>
+			<a href="https://github.com/28Halavach/28Halavach.github.io">My www.GitHub.com</a>
+			<a href="https://www.facebook.com/28Halavach">My www.FaceBook.com</a>
+			<a href="https://vk.com/aleksandrjkl">My www.vk.com</a>
 		</div>
 
+
+
 		<p>By default images are inline elements <img src="./images/cat.jpg" alt="Cat" /></p>
+		<div style="float:right;">
+		</div>
+
 
 	</main>
 
 
-	<div style="display: inline-block; width: 50%; float: left;">
-		<!-- Графическая область -->
+	<div style="width: 48%; float: left;border:solid 2px gray;">
+		<h3>Примеры работ:</h3>
 		<canvas height="250" width="215" id="mycanvas" style="border:3px solid #00f;"></canvas><br>
 
-		<a href="listing0803/index.html">listing0803</a>
-		<a href="listing0806/index.html">listing0806</a>
-		<a href="listing0807/index.html">listing0807</a>
+		<ul>
+			<li><a href="listing0803/index.html">listing0803</a></li>
+			<li><a href="listing0806/index.html">listing0806</a></li>
+			<li><a href="listing0807/index.html">listing0807</a></li>
+		</ul>
+
 	</div>
 
-	<div style="display: inline-block; align-content: left; width: 50%;  float: left;">
-
-		<a href="https://github.com/28Halavach/28Halavach.github.io">My www.GitHub.com</a>
-		<a href="https://www.facebook.com/28Halavach">My www.FaceBook.com</a>
-		<a href="https://vk.com/aleksandrjkl">My www.vk.com</a>
+	<div class="link">
 		<a href="https://gitter.im/rolling-scopes-school/padawans">Gitter.im/rolling-scopes-school/padawans</a>
-		<hr>
-		<hr>
 		<a href="https://docs.google.com/spreadsheets/d/1oM2O8DtjC0HodB3j7hcIResaWBw8P18tXkOl1ymelvE/edit#gid=0">Расписание-2018-Q3</a>
 		<a href="https://www.youtube.com/channel/UCUgmHbk1rTFaf4GGKQ1OXfQ">The Rolling Scopes YouTube</a>
 		<a href="https://www.training.by/Registration/Registration/1821">JAVASCRIPT DEVELOPMENT Q3-2018 https://www.training.by</a>
 		<a href="http://35.159.52.194:4000/">http://35.159.52.194:4000/</a>
 		<a href="http://learn.javascript.ru/let-const">Переменные: let и const</a>
 		<a href="https://ru.bem.info/methodology/css/">CSS по БЭМ</a>
-
 	</div>
 
 	<footer>
-		<p>Текст подвала</p>
-
 	</footer>
+</div><!-- The End div.wrapper -->
 
 	<script src="main.js"></script>
 </body>
