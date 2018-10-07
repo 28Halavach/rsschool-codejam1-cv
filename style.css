@@ -1,0 +1,38 @@
+.div-main {
+	background-color: #81b3e6;
+	padding: 30px;
+	font-size: 150%;
+	color: #FFF;
+}
+
+img {
+	max-width: 200px;
+	height: auto;
+}
+
+main {
+	display: block;
+	margin-bottom: 30px;
+	border: solid 5px blue;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.nav-header li {
+	display: inline-block;
+	background: yellow;
+}
+
+.link a{
+	display: block;
+	padding: 20px;
+	border: 2px solid green;
+	margin: 5px;
+	align-content: center;
+	display: inline-block; 
+	align-content: left; 
+	width: 50%;
+}
